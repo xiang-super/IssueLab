@@ -15,7 +15,7 @@ concurrency:
 
 jobs:
   merge-agent-pr:
-    if: github.repository == 'gqy20/IssueLab'
+    if: github.repository == 'xiangmaster/IssueLab'
     runs-on: ubuntu-latest
     steps:
       - name: "Gate: Paths"
